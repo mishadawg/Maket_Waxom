@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Section main board */
+/* Menu n logo*/
+.main_board_with_menu{
+    background-image: url(../img/2-Waxom.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #3D3F41;
+    display: flex;
+    padding: 30px 150px;
+    flex-direction: column;
+}
+.logo_plus_menu_section{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.container_logo_main_board{
+    display: flex;
+}
+.logo_menu_waxom_main_board{
+    width: 65px;
+    height: 57px;
+}
+.text_logo_main_board{
+    font-size: 34px;
+    color: white;
+    font-weight: 100;
+}
+.menu_main_board{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 16px 16px;
+}
+.ref_of_menu_main_board{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.ref_of_menu_main_board:hover{
+    color: #C7B299;
+}
+.list_menu_main_board{
+    margin: 0px 8px;
+}
+.kartnsearch{
+    margin-right: 22px;
+}
+.indicator_cartnsearch:hover{
+    transform: scale(1.2);
+}
+/* Carusel*/
+.container_for_carusel_main_board{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top:285px;
+    flex-basis: 100%;
+}
+.carusel_with_text_main_board{
+    flex-basis: 65%;
+    text-align: center;
+    color: white;
+}
+.first_title_main_board_carusel{
+    font-size: 36px;
+}
+.second_title_main_board_carusel{
+    font-size: 52px;
+    font-weight: bolder;
+    margin: 16px 0px;
+}
+.button_carusel_main_board{
+    background-color: #998675;
+    color: white;
+    font-size: 14px;
+    padding: 22px 49px;
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+    border-bottom:2px solid #736357;
+    margin-top:51px;
+}
+.button_carusel_main_board:hover{
+    background-color: #8a7667;
+}
+.indicator_carusel{
+    width: 41px;
+    height: 71px;
+}
+.indicator_carusel:hover{
+    transform: scale(1.2);
+}
+.indicators_carusel{
+    margin-top: 44px;
+}
+
+.carusel_indicators_main_board{
+    flex-basis: 100%;
+    margin: 0 auto;
+    margin-top:328px;
+
+}
+.carusel_indicator_main_board{
+    margin: 0px 10px;
+    padding: 6px;
+    background-color: #A09E9E;
+    box-shadow: none;
+    border: 2px solid #A09E9E;
+    border-radius: 50%;
+}
+.carusel_indicator_main_board:hover{
+    background-color: transparent;
+    transform: scale(1.2);
+}
