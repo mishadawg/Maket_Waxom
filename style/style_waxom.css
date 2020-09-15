@@ -1157,7 +1157,7 @@ font-family: 'Roboto', sans-serif;*/
         margin-top: 50px;
     }
     .container_for_cards_waxom_is_rezalution > img {
-        width: 500px;
+        width: 100vw;
     }
     .left_card_waxom {
         position: relative;
@@ -1261,6 +1261,11 @@ font-family: 'Roboto', sans-serif;*/
     /*section 10*/
     .brands_logo > img {
         margin-bottom: 56px;
+    }
+    .brands_logo {
+        padding: 50px;
+        justify-content: center;
+        
     }
     
     /*section 11*/
